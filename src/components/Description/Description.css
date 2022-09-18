@@ -1,0 +1,17 @@
+img{
+    height: 100px;
+    width: 100px;
+}
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+
+.Paragraph{
+    text-align: center;
+    margin-top: 1rem;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}

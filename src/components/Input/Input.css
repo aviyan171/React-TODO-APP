@@ -1,0 +1,80 @@
+.InputContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+
+.InputStyle{
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.icon{
+    position: relative;
+    right: 1rem;
+    top: 0.3rem;
+    background: none;
+    cursor: pointer;
+}
+.datas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    /* border: 2px solid black; */
+}
+
+.items{
+    border: 1px solid white;
+    background-color: green;
+    color: white;
+    display: flex;
+    height: 30px;
+    width: 320px;
+    border-radius: 5px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.items p{
+    background-color: green;
+}
+
+.deleteIcons{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    left: 18rem;
+    top: 0.3rem;
+}
+
+.btnContainer{
+display: flex;
+justify-content: center;
+margin-top: 2rem;
+}
+
+.deleteBtn{
+    border: 1px solid red;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+}
+
+.deleteBtn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+.EditIcons{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    left: 15rem;
+    top: 0.3rem;
+}

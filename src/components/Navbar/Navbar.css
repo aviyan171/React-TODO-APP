@@ -1,0 +1,15 @@
+.navContainer{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+   
+    
+}
+
+h1{
+   
+    background-color: black;
+    color: white;
+    position: relative;
+    padding: 1rem;
+    
+}
